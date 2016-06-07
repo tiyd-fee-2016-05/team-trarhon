@@ -35,30 +35,33 @@
 ## How can I ask for more (or less) data from a request?
 
 # How do I know that there is more data available?
-What are the endpoints for fetching...
 
-the profile data for a user?
 
-the organizations a user belongs to?
+## What are the endpoints for fetching...
 
-the repositories a user has created?
+## the profile data for a user?
 
-a filtered list of repositories?
 
-a sorted list of repositories?
+## the organizations a user belongs to?
 
-public events for a user?
+## the repositories a user has created?
 
-When fetching public events for a user...
+## a filtered list of repositories?
 
-How many results are returned by default?
+## a sorted list of repositories?
 
-What limitations exist on fetching more results?
+##  public events for a user?
 
-What is the basic structure of the results?
+## When fetching public events for a user...
 
-What fields are included in each result?
+## How many results are returned by default?
+  #### You can receive a maximum of 300 results with 10 pages containing 30 results per page.
+## What limitations exist on fetching more results?
+  #### Only events logged within the past 90 days are accessible.  
+## What is the basic structure of the results?
 
-What are the data types for each field?
+## What fields are included in each result?
 
-What are some of the different values for the type field?
+## What are the data types for each field?
+
+## What are some of the different values for the type field?

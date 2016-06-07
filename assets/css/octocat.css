@@ -144,7 +144,10 @@ h2{
 .followers a{
   text-decoration: none;
   font-size: 11px;
+  line-height: 3;
+  display: inline-block;
 }
+
 
 
 /*REPO NAV BAR*/
