@@ -2,7 +2,7 @@
 
 ### Together-Travis and I:
 
-* Wiref-framed html layout.
+* Wire-framed html layout.
 
 * Built-out HTML and beginning CSS      styling.
 
@@ -13,7 +13,7 @@
 ### Rhonda
 
 * Added more elements to Repo Area.
-  * <ul>, <li class>, <i></i>.
+  * ul, li class, i.
 
 * Styled the Repo Area.
 
