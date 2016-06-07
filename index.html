@@ -2,68 +2,80 @@
 <html>
   <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
-    <link rel="stylesheet" href="https://cdjns.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/octocat.css">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+<link rel="stylesheet" href="assets/css/octocat.css">
     <meta charset="utf-8">
     <title>Team-TraRhon</title>
   </head>
   <body>
     <!-- NAV-BAR -->
     <div id="nav-container">
-    <nav id="navbar"><i></i> <input type="text"></input>
+    <nav id="navbar">
         <ul>
+          <i></i> <input type="text" placeholder="Search Github"></input>
           <li>Pull Requests</li>
           <li>Issues</li>
           <li>Gist</li>
-          <i>bell-icon</i> <i>Plus-Icon</i>   <i>Profile Icon</i>
+          <i class="fa fa-bell" aria-hidden="true"></i>
+          <i class="fa fa-plus" aria-hidden="true"></i>
+          <i class="fa fa-user" aria-hidden="true"></i>
+
      </nav>
    </div>
      <div id="container">
        <!-- Profile Column -->
+       <div class="section group">
+         <div class="col span_1_of_2">
        <div id="profile">
-         <img src="assets/octocat.jpeg">
+         <a class="cat" href='assets/octocat.jpeg'><img src="assets/octocat.jpeg"></a>
          <ul id="stats">
-           <h1>Octocat</h1>
+           <h1>The Octocat</h1>
            <h2>octocat</h2>
-           <li><i></i>GitHub</li>
-           <li><i></i>San Francisco</li>
-           <li><i></i><a href="octocat@github.com">octocat@github.com</a></li>
-           <li><i></i><a href="http://www.github.com/blog">http://www.github.com/blog</a></li>
-           <li><i></i>Joined on Jan 25, 2011</li>
+           <li><i class="fa fa-users" aria-hidden="true"></i>GitHub</li>
+           <li><i class="fa fa-map-marker" aria-hidden="true"></i>San Francisco</li>
+           <li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="octocat@github.com">octocat@github.com</a></li>
+           <li><i class="fa fa-link" aria-hidden="true"></i><a href="http://www.github.com/blog">http://www.github.com/blog</a></li>
+           <li><i class="fa fa-clock-o" aria-hidden="true"></i>Joined on Jan 25, 2011</li>
          </ul>
-         <div class="followers"></div>
-         <a href=""></a>
-         <a href=""></a>
-         <a href=""></a>
-
+       </div>
+       <ul>
+         <div class="followers">
+         <li><h2>1.4k</h2><h3>Followers</h3></li>
+         <li><h2>2</h2><h3>Starred</h3></li>
+         <li><h2>6</h2><h3>Following</h3></li>
+         </div>
+       </ul>
        </div>
        <!-- Repo area -->
+       <div id="main-content">
+       <div class="col span_1_of_2">
        <div id="repo-area">
          <nav id="repo-nav">
-           <a href=""><i></i>Contributions</a>
-           <a href=""><i></i>Repositories</a>
-           <a href=""><i></i>Public Activity</a>
-           <button id="follow">Follow</button>
-           <button id="block">Block or Report</button>
+           <ul><!---  Rhonda added <li></li>  ---->
+           <li class="contribution"><a href=""><i class="fa fa-female" aria-hidden="true"></i>Contributions</a></li>
+           <li class="repo"><a href=""><i class="fa fa-wpforms" aria-hidden="true"></i>Repositories</a></li>
+           <li class="Pub-act"><a href=""><i class="fa fa-pause" aria-hidden="true"></i>Public Activity</a></li>
+           <li><button id="follow" type="select"><i class="fa fa-female" aria-hidden="true"></i>Follow</button></li>
+           <li><button id="block" type="select"><i class="fa fa-wpforms" aria-hidden="true"></i>Block or Report</button></li>
+          </ul>
          </nav>
-       </div>
 
-       <div id="main-content">
+
          <h3>Popular Repositories</h3>
-         <ul>
-           <li> <a href=""></a>  </li>
-           <li> <a href=""></a>  </li>
-           <li> <a href=""></a>  </li>
-           <li> <a href=""></a>  </li>
-           <li> <a href=""></a>  </li>
+         <ul class="repo-list">
+           <li> <a href=""> Spoon-Knife</a><p>The repo is for demonstration purposes only.</p> </li>
+           <li> <a href="">Hello-World</a> <p>My first repository on Github!</p> </li>
+           <li> <a href="">hello-world</a><p>My first repository on Github.</p> </li>
+           <li> <a href="">octocat.github.io</a><p></p> </li>
+           <li> <a href="">git-consortium</a><p>The repo is for demonstration purposes Only</p> </li>
 
 
-
-
+           </div>
+         </div>
          </ul>
        </div>
     </div>
-
+</div>
 
   <script src="asset/js/octocat.js"></script>
   <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
