@@ -49,22 +49,20 @@ body{
 
 /*Profile info*/
 .section {
-	clear: both;
-	padding: 0px;
-	margin: 0px;
+  clear: both;
+  padding: 0px;
+  margin: 0px;
 }
 
 .col {
-	display: block;
-	float:left;
-	margin: 1% 0 1% 1.6%;
+  display: block;
+  float:left;
+  margin: 1% 0 1% 1.6%;
 }
-<<<<<<< HEAD
 
-/*.col:first-child { margin-left: 54px; }*/
-=======
-.col:first-child { margin-left: 54px; }
->>>>>>> d348bb406685421cc4308532fd3bffd5db2534bd
+
+
+
 
 .group:before,
 .group:after { content:""; display:table; }
@@ -72,21 +70,21 @@ body{
 .group { zoom:1;}
 
 /*.span_2_of_2 {
-	width: 100%;
+  width: 100%;
 }
 .span_1_of_2 {
-	width: 49.2%;
+  width: 49.2%;
 }
 
 
 @media only screen and (max-width: 480px) {
-	.col {
-		margin: 1% 0 1% 0%;
-	}
+  .col {
+    margin: 1% 0 1% 0%;
+  }
 }
 
 @media only screen and (max-width: 480px) {
-	.span_2_of_2, .span_1_of_2 { width: 100%; }
+  .span_2_of_2, .span_1_of_2 { width: 100%; }
 }*/
 
 /*#profile{
@@ -182,7 +180,7 @@ h2{
 .repo-list{
   margin-top: 4em;
   display: inline-block;
-  width: 225%;
+  width: 115%;
   position: relative;
 }
 .repo-list h3{
