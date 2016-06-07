@@ -22,7 +22,7 @@ body{
   float: right;
 }
 
-#navbar input{
+.search{
   width: 350px;
   margin: 4px 19px 1px 119px;
   min-height: 26px;

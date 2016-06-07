@@ -2,8 +2,11 @@
 <html>
 <head>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+<script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+<script src="https://cdn.rawgit.com/lodash/lodash/3.0.1/lodash.min.js"></script>
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 <link rel="stylesheet" href="assets/css/octocat.css">
+
   <meta charset="utf-8">
   <title>Team-TraRhon</title>
 </head>
@@ -11,8 +14,11 @@
   <!-- NAV-BAR -->
   <div id="nav-container">
   <nav id="navbar">
-      <ul>
-        <i></i> <input type="text" placeholder="Search Github"></input>
+        <form class="user-form">
+         <input name="gh-login" type="text" placeholder="Search Github"></input>
+       </form>
+
+       <ul>
         <li>Pull Requests</li>
         <li>Issues</li>
         <li>Gist</li>
@@ -22,29 +28,44 @@
 
    </nav>
  </div>
+ </div>
+
+
+
+  <div class="user-info">
+  </div>
+
    <div id="container">
+
      <!-- Profile Column -->
      <div class="section group">
        <div class="col span_1_of_2">
-     <div id="profile">
-       <a class="cat" href='assets/octocat.jpeg'><img src="assets/octocat.jpeg"></a>
+         <div id="profile">
+
+        <script id="gh-user-template" type="text/html">
+       <img src="<%- m.avatar_url %>">
        <ul id="stats">
-         <h1>The Octocat</h1>
-         <h2>octocat</h2>
-         <li><i class="fa fa-users" aria-hidden="true"></i>GitHub</li>
-         <li><i class="fa fa-map-marker" aria-hidden="true"></i>San Francisco</li>
-         <li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="octocat@github.com">octocat@github.com</a></li>
-         <li><i class="fa fa-link" aria-hidden="true"></i><a href="http://www.github.com/blog">http://www.github.com/blog</a></li>
-         <li><i class="fa fa-clock-o" aria-hidden="true"></i>Joined on Jan 25, 2011</li>
+         <h1 class="user-name">
+           <%- m.name %></h1>
+         <h2 class="user-login">
+           <%- m.login %></h2>
+         <li><i class="fa fa-users" aria-hidden="true"></i><%- m.company %></li>
+         <li><i class="fa fa-map-marker" aria-hidden="true"></i><%- m.location %></li>
+         <li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href=""></a><%- m.email %></li>
+         <li><i class="fa fa-link" aria-hidden="true"></i><a href="<%- m.blog %>"><%- m.blog %></a></li>
+         <li><i class="fa fa-clock-o" aria-hidden="true"></i><%- m.created_at %></li>
        </ul>
      </div>
 
        <div class="followers">
-       <li><h2>1.4k</h2><h3>Followers</h3></li>
+       <li><h2><%- m.followers%></h2><h3>Followers</h3></li>
        <li><h2>2</h2><h3>Starred</h3></li>
-       <li><h2>6</h2><h3>Following</h3></li>
+       <li><h2><%- m.following %></h2><h3>Following</h3></li>
       </div>
      </div>
+   </script>
+   <!-- </script> -->
+
        <!-- Repo area -->
        <div id="main-content">
        <div class="col span_1_of_2">
@@ -81,7 +102,6 @@
     </div>
 </div>
 
-  <script src="asset/js/octocat.js"></script>
-  <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+  <script src="assets/js/octocat.js"></script>
   </body>
 </html>
