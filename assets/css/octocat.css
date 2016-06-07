@@ -159,10 +159,7 @@ h2{
 
 /*REPO NAV BAR*/
 
-#repo-nav{
-  margin-top: 0;
-  margin-bottom: 15px;
-}
+
 
 /*REPO LIST*/
 
@@ -172,7 +169,7 @@ h2{
 }
 
 #main-content{
-  width: 850px
+  width: 850px;
   border: 1px solid #d8d8d8;
   margin: 100px;
 }
