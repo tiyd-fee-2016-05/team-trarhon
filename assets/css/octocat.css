@@ -3,7 +3,6 @@ body{
   max-height: 100%;
   font-family: arial, helvetica;
 }
-
 /*NAVBAR*/
 
 #nav-container{
@@ -43,10 +42,6 @@ body{
   }
 
 
-
-
-
-
 /*Profile info*/
 .section {
 	clear: both;
@@ -59,6 +54,7 @@ body{
 	float:left;
 	margin: 1% 0 1% 1.6%;
 }
+
 .col:first-child { margin-left: 54px; }
 
 .group:before,
@@ -66,32 +62,29 @@ body{
 .group:after { clear:both;}
 .group { zoom:1;}
 
-/*.span_2_of_2 {
-	width: 100%;
-}
-.span_1_of_2 {
-	width: 49.2%;
-}
 
 
-@media only screen and (max-width: 480px) {
+
+/*@media only screen and (max-width: 480px) {
 	.col {
 		margin: 1% 0 1% 0%;
 	}
 }
 
 @media only screen and (max-width: 480px) {
-	.span_2_of_2, .span_1_of_2 { width: 100%; }
-}*/
+	.span_2_of_2, .span_1_of_2 { width: 100%; }*/
+/*}*/
+
 
 /*#profile{
 padding-right: 10px;
 padding-left: 10px;
 margin: 0;
 float: left;
+<<<<<<< HEAD
 width:300px;
-
 }*/
+
 
 #profile img{
   display: inline-block;
@@ -105,12 +98,14 @@ width:300px;
 }
 
 #stats{
+  /*outline: 1px solid blue;*/
   list-style: none;
   padding-top: 12px;
   padding-bottom: 12px;
   border-color: #eee;
   border-bottom: 2px #e5e5e5 solid;
   line-height: 2;
+  /*border-top: 1px #e5e5e5 solid;*/
 }
 
 h1{
@@ -132,6 +127,7 @@ h2{
   padding-right: 20px;
   padding-left: 14px;
 }
+
 
 
 
@@ -160,7 +156,10 @@ h2{
 /*REPO NAV BAR*/
 
 #repo-nav{
+  border: solid 1px #d8d8d8;
   margin-top: 0;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
   margin-bottom: 15px;
 }
 
@@ -198,8 +197,6 @@ h2{
   border: 4px solid #f5f5f5;
 }
 
-/*REPO NAV BAR*/
-/*   Rhonda styling of Repo Nav Bar  */
 #repo-nav{
   border: solid 1px #d8d8d8;
   margin-top: 0;
@@ -211,6 +208,8 @@ h2{
 #repo-nav li{
   display: inline-block;
   font-size: 14px;
+  /*border-top: solid 1px #e5e5e5;*/
+  /*border: 1px solid #e5e5e5;*/
   text-decoration: none;
   padding: 8px 12px 8px 12px;
   cursor: pointer;
@@ -223,6 +222,29 @@ li a{
 #repo-nav i{
   padding-right: 3px;
 }
+
+
+
+
+
+/*REPO LIST*/
+
+
+
+/*.followers a{
+  text-decoration: none;
+  font-size: 11px;
+  float: left;
+}*/
+
+
+/*REPO NAV BAR*/
+/*   Rhonda styling of Repo Nav Bar  */
+
+
+
+
+
 
 .contribution{
   border-top: 2px solid #e5e5e5;
