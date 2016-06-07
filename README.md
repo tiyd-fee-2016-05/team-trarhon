@@ -13,7 +13,6 @@
 ### Rhonda
 
 * Added more elements to Repo Area.
-  * ul, li class, i.
 
 * Styled the Repo Area.
 
