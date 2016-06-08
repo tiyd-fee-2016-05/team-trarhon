@@ -14,28 +14,26 @@
 <body>
   <!-- NAV-BAR -->
   <div id="nav-container">
-  <nav id="navbar">
+      <nav id="navbar">
         <form class="user-form">
-         <span class="octicon octicon-mark-github"></span><input name="gh-login" type="text" placeholder="Search Github"></input>
+          <ul><!--   RG included tabs and navbar-icons into li's get everything to line up --->
+            <li><span class="octicon octicon-mark-github"></span></li>
+            <li><input name="gh-login" type="text" placeholder="Search Github"></input></li>
        </form>
 
-       <ul>
-        <li>Pull Requests</li>
-        <li>Issues</li>
-        <li>Gist</li>
-        <i class="fa fa-bell" aria-hidden="true"></i>
-        <i class="fa fa-plus" aria-hidden="true"></i>
-        <i class="fa fa-user" aria-hidden="true"></i>
-
-   </nav>
- </div>
+            <li class="tabs">Pull Requests</li>
+            <li class="tabs">Issues</li>
+            <li class="tabs">Gist</li>
+            <li class="navbar-icons"><i class="fa fa-bell" aria-hidden="true"></i></li>
+            <li class="navbar-icons"><i class="fa fa-plus" aria-hidden="true"></i></li>
+            <li class="navbar-icons"><i class="fa fa-user" aria-hidden="true"><input name="gh-login" type="text" placeholder="#"></input></li>
+          </ul>
+      </nav>
  </div>
 
 
-
-  <!-- <div class="user-info">
-  </div> -->
-
+<!------------------------------------------------------------------------------------>
+<!--- LEFT SIDE  ----------------------------------------->
    <div id="container">
 
      <!-- Profile Column -->
@@ -65,9 +63,9 @@
       </div>
      </div>
    </script>
-   <!-- </script> -->
+<!----------------------------------------------------------------------------->
 
-       <!-- Repo area -->
+<!-- REPO AREA RIGHT SIDE -->
        <div id="main-content">
        <div class="col span_1_of_2">
 

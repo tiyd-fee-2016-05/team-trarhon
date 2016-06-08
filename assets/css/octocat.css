@@ -3,11 +3,13 @@ body{
   max-height: 100%;
   font-family: arial, helvetica;
 }
+
+
 /*NAVBAR*/
 
 #nav-container{
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   background-color: #f5f5f5;
   border-bottom: 1px solid #e5e5e5;
   column-span: all;
@@ -15,24 +17,64 @@ body{
 
 #navbar li{
   display: inline-block;
-  padding: .6em;
+  padding: .4em;
 }
 
-#navbar i{
+
+/*   pull-request, issues and gist */
+#navbar .tabs{/* RG */
+  margin-left: 60px;
+  padding-left: 10px;
+  font-size: 13px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #333;
+}
+
+/*  Bell, +, and profile icon in nav */
+.navbar-icons{/* RG */
   float: right;
 }
 
-.search{
-  width: 350px;
-  margin: 4px 19px 1px 119px;
+
+/*  changed to .navbar-icons */
+/*#navbar i{
+  float: right;
+}*/
+
+
+/*** Octicat icon of cat next to search-bar */
+.user-form span{/* RG */
+  padding-right: 4px;
+  font-size: 28px;
+}
+
+
+/**  Search bar **/
+ .user-form input{/* RG */
+  display: inline-block;
+  width: 100%;
   min-height: 26px;
-  padding-top: 0;
-  padding-bottom: 0;
-  border: 0;
+  padding-left: 4px;
+  padding-right: 40px;
+  background: white;
+  border: 1px solid black;
   box-shadow: none;
-  border-radius: 5%;
   font-family: arial, helvetica;
   font-size: .8em;
+}
+
+.user-form{/* RG */
+  /*width: 200%;*/
+  margin: 4px 0px 1px 40px;
+  /*min-height: 26px;*/
+  /*padding-top: 0;*/
+  /*padding-bottom: 0;*/
+  /*border: 0;*/
+  /*box-shadow: none;*/
+  /*border-radius: 5%;*/
+  /*font-family: arial, helvetica;*/
+  /*font-size: .8em;*/
 }
 
 #container{
@@ -124,7 +166,7 @@ width:300px;
   padding-left: 14px;
 }
 
-.navigation .octicon {
+span.octicon {/** RG */
     width: 16px;
     text-align: center;
   }
