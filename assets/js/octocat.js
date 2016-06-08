@@ -1,4 +1,3 @@
-console.log('word');
 
 
 $(function () {
