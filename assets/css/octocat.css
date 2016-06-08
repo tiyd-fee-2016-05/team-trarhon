@@ -219,7 +219,7 @@ li a{
   padding: 6px 64px 6px 30px;
   text-decoration: none;
   color: #47a3da;
-  display: none;
+  display: block;
 
 }
 
@@ -229,7 +229,7 @@ li a{
   /*padding-bottom: 14px;*/
   color:#666;
   position: relative;
-  display: none;
+  display: block;
 
 }
 
@@ -238,7 +238,7 @@ li a{
   position:relative;
   margin: 2px 11px -5px -2px;
   width: 95%;
-  display: none;
+  display: inline-flex;
 
 
 }
@@ -247,14 +247,14 @@ li a{
 float: right;
 position: relative;
 margin: -28px -40px 0px 3px;
-display: none;
+display: block;
 
 }
 
 
 /*REPO LIST-TAB*/
 .list-a{
-  display: block;
+  display: none;
   position: relative;
   font-size: 14px;
   line-height: 2;
@@ -266,14 +266,14 @@ display: none;
 
 .list-title{
   font-size: 28px;
-  display: block;
+  display: none;
   color:#666;
   position: relative;
 }
 
 .list-desc{
   font-size: 12px;
-  display: inline-flex;
+  display: none;
   position:relative;
   margin: 2px 11px -5px -2px;
   width: 95%;
@@ -281,9 +281,11 @@ display: none;
 }
 
 .list-star{
+  font-size: 11px;
   float: right;
 position: relative;
 margin: -28px -40px 0px 3px;
+display: none;
 }
 
 
