@@ -31,6 +31,15 @@ body{
   color: #333;
 }
 
+.avatar{
+  display: inline-block;
+  overflow: hidden;
+  line-height: 1;
+  vertical-align: middle;
+  border-radius: 3px;
+}
+
+
 /*  Bell, +, and profile icon in nav */
 .navbar-icons{/* RG */
   float: right;

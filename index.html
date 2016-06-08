@@ -19,15 +19,25 @@
           <ul><!--   RG included tabs and navbar-icons into li's get everything to line up --->
             <li><span class="octicon octicon-mark-github"></span></li>
             <li><input name="gh-login" type="text" placeholder="Search Github"></input></li>
-       </form>
+
 
             <li class="tabs">Pull Requests</li>
             <li class="tabs">Issues</li>
             <li class="tabs">Gist</li>
-            <li class="navbar-icons"><i class="fa fa-bell" aria-hidden="true"></i></li>
-            <li class="navbar-icons"><i class="fa fa-plus" aria-hidden="true"></i></li>
-            <li class="navbar-icons"><i class="fa fa-user" aria-hidden="true"><input name="gh-login" type="text" placeholder="#"></input></li>
-          </ul>
+
+            <li class="navbar-icons drop-down-menu">
+              <a href="#"><img class="avatar" src="<%- m.avatar_url %>">
+              <i class="fa fa-caret-down" aria-hidden="true"></i></a></li>
+
+            <li class="navbar-icons drop-down-menu">
+              <a href="#"><i class="fa fa-plus" aria-hidden="true"></i>
+                <i class="fa fa-caret-down" aria-hidden="true"></i></a></li>
+
+
+            <li class="navbar-icons"><a href="#"><i class="fa fa-bell" aria-hidden="true"></i></a></li>
+
+            </ul>
+          </form>
       </nav>
  </div>
 
@@ -41,14 +51,14 @@
        <div class="col span_1_of_2">
          <div id="profile">
 
-        <script id="gh-user-template" type="text/html">
+      <script id="gh-user-template" type="text/html">
        <img src="<%- m.avatar_url %>">
        <ul id="stats">
          <h1 class="user-name">
            <%- m.name %></h1>
          <h2 class="user-login">
            <%- m.login %></h2>
-         <li><span class="octicon octicon-organization"></span><%- m.company %></li>
+         <li><span class="octicon octicon-organization"></span>GitHub</li>
          <li><span class="octicon octicon-location"></span><%- m.location %></li>
          <li><span class="octicon octicon-mail"></span><a href=""></a><%- m.email %></li>
          <li><span class="octicon octicon-link"></span><a href="<%- m.blog %>"><%- m.blog %></a></li>
