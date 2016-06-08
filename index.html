@@ -58,7 +58,7 @@
            <%- m.name %></h1>
          <h2 class="user-login">
            <%- m.login %></h2>
-         <li><span class="octicon octicon-organization"></span>GitHub</li>
+         <li><span class="octicon octicon-organization"></span>GitHub><%- m.company%></li>
          <li><span class="octicon octicon-location"></span><%- m.location %></li>
          <li><span class="octicon octicon-mail"></span><a href=""></a><%- m.email %></li>
          <li><span class="octicon octicon-link"></span><a href="<%- m.blog %>"><%- m.blog %></a></li>
@@ -82,24 +82,25 @@
        <div id="repo-area">
          <nav id="repo-nav">
            <ul><!---  Rhonda added <li></li>  ---->
-           <li class="contribution"><a href=""><i class="fa fa-female" aria-hidden="true"></i>Contributions</a></li>
-           <li class="repo"><a href=""><i class="fa fa-wpforms" aria-hidden="true"></i>Repositories</a></li>
-           <li class="Pub-act"><a href=""><i class="fa fa-pause" aria-hidden="true"></i>Public Activity</a></li>
-           <li><button id="follow" type="select"><i class="fa fa-female" aria-hidden="true"></i>Follow</button></li>
-           <li><button id="block" type="select"><i class="fa fa-wpforms" aria-hidden="true"></i>Block or Report</button></li>
+           <li class="contribution"><a href=""><span class="octicon octicon-person"></span>Contributions</a></li>
+           <li class="repo"><a href=""><span class="octicon octicon-repo"></span>Repositories</a></li>
+           <li class="Pub-act"><a href=""><span class="octicon octicon-rss"></span>Public Activity</a></li>
+           <li><button id="follow" type="select"><span class="octicon octicon-person"></span>Follow</button></li>
+           <li><button id="block" type="select">Block or Report<i class="fa fa-caret-down" aria-hidden="true"></button></i></li>
           </ul>
-               </div>
+
          </nav>
+        </div>
 
 
 
          <ul class="repo-list">
            <h3>Popular Repositories</h3>
-           <li> <a href=""> Spoon-Knife</a><p>The repo is for demonstration purposes only.</p> </li>
-           <li> <a href="">Hello-World</a> <p>My first repository on Github!</p> </li>
-           <li> <a href="">hello-world</a><p>My first repository on Github.</p> </li>
-           <li> <a href="">octocat.github.io</a><p></p> </li>
-           <li> <a href="">git-consortium</a><p>The repo is for demonstration purposes Only</p> </li>
+           <li><span class="octicon octicon-repo"></span><a href=""> Spoon-Knife</a><p>The repo is for demonstration purposes only.</p> </li>
+           <li><span class="octicon octicon-repo"></span><a href="">Hello-World</a> <p>My first repository on Github!</p> </li>
+           <li><span class="octicon octicon-repo"></span><a href="">hello-world</a><p>My first repository on Github.</p> </li>
+           <li><span class="octicon octicon-repo"></span><a href="">octocat.github.io</a><p></p> </li>
+           <li><span class="octicon octicon-repo"></span><a href="">git-consortium</a><p>The repo is for demonstration purposes Only</p> </li>
 
 
 

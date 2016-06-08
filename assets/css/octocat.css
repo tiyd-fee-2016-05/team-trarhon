@@ -215,6 +215,18 @@ span.octicon {/** RG */
   margin-bottom: 15px;
 }
 
+#repo-nav li{
+  display: inline-block;
+  font-size: 14px;
+  /*border-top: solid 1px #e5e5e5;*/
+  /*border: 1px solid #e5e5e5;*/
+  text-decoration: none;
+  padding: 8px 12px 8px 12px;
+  cursor: pointer;
+}
+
+
+
 /*#repo-nav {
   display: block;
   position: relative;
@@ -262,23 +274,6 @@ span.octicon {/** RG */
   width: 95%;
 }
 
-#repo-nav{
-  border: solid 1px #d8d8d8;
-  margin-top: 0;
-  border-bottom-right-radius: 3px;
-  border-bottom-left-radius: 3px;
-  margin-bottom: 15px;
-}
-
-#repo-nav li{
-  display: inline-block;
-  font-size: 14px;
-  /*border-top: solid 1px #e5e5e5;*/
-  /*border: 1px solid #e5e5e5;*/
-  text-decoration: none;
-  padding: 8px 12px 8px 12px;
-  cursor: pointer;
-}
 
 li a{
   text-decoration: none;
