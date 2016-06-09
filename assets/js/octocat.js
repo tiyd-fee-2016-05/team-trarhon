@@ -46,7 +46,7 @@ $(function () {
     console.log('submit');
 
     var ghLogin = $('input[name="gh-login"]').val();
-    $.getJSON('https://api.github.com/users/' + ghLogin + "/repos")
+    $.getJSON('https://api.github.com' + ghLogin)
       .done(showRepo)
       .fail(showError);
   });
