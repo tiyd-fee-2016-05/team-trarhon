@@ -1,10 +1,16 @@
+<<<<<<< HEAD
 // USER PROFILE INFO
 
+=======
+>>>>>>> master
 $(function () {
 
   $('.user-form').on('submit', function (e) {
     e.preventDefault();
+<<<<<<< HEAD
     console.log('submit');
+=======
+>>>>>>> master
 
     var ghLogin = $('input[name="gh-login"]').val();
     $.getJSON('https://api.github.com/users/' + ghLogin)
@@ -25,6 +31,7 @@ $(function () {
 
   function show(template, model) {
     var fn = _.template($('#' + template).html(), { variable: 'm' });
+<<<<<<< HEAD
     $('#profile').html(fn(model));
   }
 
@@ -66,6 +73,9 @@ $(function () {
   function show(template, model) {
     var fn = _.template($('#' + template).html(), { variable: 'm' });
     $('#repo-list').html(fn(model));
+=======
+    $('.user-info').html(fn(model));
+>>>>>>> master
   }
 
 });
