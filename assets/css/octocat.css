@@ -5,6 +5,8 @@ body{
 }
 
 
+
+/************************************************************/
 /*NAVBAR*/
 
 #nav-container{
@@ -152,7 +154,6 @@ width:300px;
   border-color: #eee;
   border-bottom: 2px #e5e5e5 solid;
   line-height: 2;
-  /*border-top: 1px #e5e5e5 solid;*/
 }
 
 #stats h1{
@@ -166,10 +167,11 @@ width:300px;
   color: #666;
   font-weight: 300;
   font-style: normal;
+
 }
 
 #stats  span{
-  padding-top: 3px;
+  padding-top: 5px;
   padding-bottom: 3px;
   padding-right: 20px;
   padding-left: 14px;
@@ -182,7 +184,6 @@ span.octicon {/** RG */
 
 
 
-
 .followers li{
   font-weight: bold;
   font-size: 28px;
@@ -190,22 +191,28 @@ span.octicon {/** RG */
   padding-top: 12px;
   padding-bottom: 12px;
   display: inline-block;
+  border-bottom-color: 1px solid #eee;
 }
 
 .followers h3{
   text-decoration: none;
-  font-size: 11px;
+  font-size: 14px;
   line-height: 3;
+  color: #767676;
 }
 
 .followers h2{
   text-decoration: none;
-  font-size: 24px;
+  font-size: 28px;
+  font-weight: bold;
+
 }
 
 
-
+/*****************************************************************/
 /*REPO NAV BAR*/
+
+
 
 #repo-nav{
   border: solid 1px #d8d8d8;
@@ -225,14 +232,14 @@ span.octicon {/** RG */
   cursor: pointer;
 }
 
+#repo-nav i{
+  padding-right: 3px;
+}
 
 
-/*#repo-nav {
-  display: block;
-  position: relative;
-}*/
 
 
+/**************************************************************/
 /*REPO LIST*/
 
 #repo-area {
@@ -287,33 +294,12 @@ li a{
   text-decoration: none;
 }
 
-#repo-nav i{
-  padding-right: 3px;
-}
 
 
 
 
-
-/*REPO LIST*/
-
-
-
-/*.followers a{
-  text-decoration: none;
-  font-size: 11px;
-  float: left;
-}*/
-
-
-/*REPO NAV BAR*/
-/*   Rhonda styling of Repo Nav Bar  */
-
-
-
-
-
-
+/***************************************************************/
+/***              REPO AREA RIGHT SIDE            ***/
 .contribution{
   border-top: 2px solid #e5e5e5;
   border-right: 2px solid #e5e5e5;

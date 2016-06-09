@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="utf-8">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
 <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
 <script src="https://cdn.rawgit.com/lodash/lodash/3.0.1/lodash.min.js"></script>
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 <link type="text/css" rel="stylesheet" href="assets/octicons/octicons.css">
+<title>Team-TraRhon</title>
 <link rel="stylesheet" href="assets/css/octocat.css">
-
-  <meta charset="utf-8">
-  <title>Team-TraRhon</title>
 </head>
 <body>
+
+  <!--------------------------------------------------------------------------->
   <!-- NAV-BAR -->
   <div id="nav-container">
       <nav id="navbar">
@@ -76,12 +77,12 @@
 <!----------------------------------------------------------------------------->
 
 <!-- REPO AREA RIGHT SIDE -->
-       <div id="main-content">
+    <div id="main-content">
        <div class="col span_1_of_2">
 
        <div id="repo-area">
          <nav id="repo-nav">
-           <ul><!---  Rhonda added <li></li>  ---->
+           <ul><!---  Rhonda  ---->
            <li class="contribution"><a href=""><span class="octicon octicon-person"></span>Contributions</a></li>
            <li class="repo"><a href=""><span class="octicon octicon-repo"></span>Repositories</a></li>
            <li class="Pub-act"><a href=""><span class="octicon octicon-rss"></span>Public Activity</a></li>
@@ -93,25 +94,43 @@
         </div>
 
 
+<!---  Travis   ----------------------------------------->
+        <ul id="repo-list">
+         <script id="gh-repo-template" type="text/html">
 
-         <ul class="repo-list">
-           <h3>Popular Repositories</h3>
-           <li><span class="octicon octicon-repo"></span><a href="<%-%>">Spoon-Knife</a><p>The repo is for demonstration purposes only.</p> </li>
-           <li><span class="octicon octicon-repo"></span><a href="<%-%>">Hello-World</a> <p>My first repository on Github!</p> </li>
-           <li><span class="octicon octicon-repo"></span><a href="<%-%>">hello-world</a><p>My first repository on Github.</p> </li>
-           <li><span class="octicon octicon-repo"></span><a href="<%-%>">octocat.github.io</a><p></p> </li>
-           <li><span class="octicon octicon-repo"></span><a href="<%-%>">git-consortium</a><p>The repo is for demonstration purposes Only</p> </li>
+         <h3>Popular Repositories</h3>
+         <li> <a  href="<%- m.name %>" class="repo-a"><span class="repo-title"></span><span class="repo-desc">The repo is for demonstration purposes only.</span>
+         <span class="repo-star ">9,939</span></a></li>
+         <li> <a href="" class="repo-a "><span class="repo-title "> Hello world</span><span class="repo-desc ">My first repository on github!</span>
+         <span class="repo-star">9,939</span></a></li>
+         <li> <a href="" class="repo-a "><span class="repo-title "> hello-world</span><span class="repo-desc ">My first repository on github!</span>
+         <span class="repo-star">9,939</span></a></li>
+         <li> <a href="" class="repo-a "><span class="repo-title "> octocat.github.io</span><span class="repo-desc ">The repo is for demonstration purposes only.</span>
+         <span class="repo-star ">9,939</span></a></li>
+         <li> <a href="" class="repo-a "><span class="repo-title "> git-consortium </span><span class="repo-desc ">The repo is for demonstration purposes only.</span>
+         <span class="repo-star">9,939</span></a></li>
+
+         <ul id="list-list">
+           <li> <a  href="" class="list-a "><span class="list-title"> Spoon-Knife</span><span class="list-desc ">The repo is for demonstration purposes only.</span>
+           <span class="list-star">9,939</span></a></li>
+           <li> <a href="" class="list-a"><span class="list-title"> Hello world</span><span class="list-desc">My first repository on github!</span>
+           <span class="list-star">9,939</span></a></li>
+           <li> <a href="" class="list-a"><span class="list-title"> hello-world</span><span class="list-desc">My first repository on github!</span>
+           <span class="list-star">9,939</span></a></li>
+           <li> <a href="" class="list-a"><span class="list-title"> octocat.github.io</span><span class="list-desc">The repo is for demonstration purposes only.</span>
+           <span class="list-star">9,939</span></a></li>
+           <li> <a href="" class="list-a"><span class="list-title"> git-consortium </span><span class="list-desc">The repo is for demonstration purposes only.</span>
+           <span class="list-star">9,939</span></a></li>
+         </script>
 
 
-
-         </ul>
-       </div>
-      </div>
         </div>
-       </div>
+      </div>
     </div>
-</div>
+  </div>
 
-  <script src="assets/js/octocat.js"></script>
+
+
+    <script src="assets/js/octocat.js"></script>
   </body>
 </html>
