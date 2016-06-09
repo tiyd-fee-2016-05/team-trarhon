@@ -60,17 +60,24 @@ body{
   font-size: 28px;
 }
 
+<<<<<<< HEAD
 
 /**  Search bar **/
  .user-form input{/* RG */
   display: inline-block;
   width: 100%;
+=======
+#navbar input{
+  width: 350px;
+  margin: 4px 19px 1px 119px;
+>>>>>>> master
   min-height: 26px;
   padding-left: 4px;
   padding-right: 40px;
   background: white;
   border: 1px solid black;
   box-shadow: none;
+<<<<<<< HEAD
   font-family: arial, helvetica;
   font-size: .8em;
 }
@@ -86,6 +93,11 @@ body{
   /*border-radius: 5%;*/
   /*font-family: arial, helvetica;*/
   /*font-size: .8em;*/
+=======
+  border-radius: 5%;
+  font-family: arial, helvetica;
+  font-size: .8em;
+>>>>>>> master
 }
 
 #container{
@@ -95,35 +107,68 @@ body{
   }
 
 
+<<<<<<< HEAD
+=======
+
+
+
+
+>>>>>>> master
 /*Profile info*/
 .section {
-	clear: both;
-	padding: 0px;
-	margin: 0px;
+  clear: both;
+  padding: 0px;
+  margin: 0px;
 }
 
 .col {
-	display: block;
-	float:left;
-	margin: 1% 0 1% 1.6%;
+  display: block;
+  float:left;
+  margin: 1% 0 1% 1.6%;
 }
 
+<<<<<<< HEAD
 /*.col:first-child { margin-left: 54px; }*/
+=======
+
+
+
+>>>>>>> master
 
 .group:before,
 .group:after { content:""; display:table; }
 .group:after { clear:both;}
 .group { zoom:1;}
 
+<<<<<<< HEAD
 /*@media only screen and (max-width: 480px) {
 	.col {
 		margin: 1% 0 1% 0%;
 	}
+=======
+/*.span_2_of_2 {
+  width: 100%;
+}
+.span_1_of_2 {
+  width: 49.2%;
+}
+
+
+@media only screen and (max-width: 480px) {
+  .col {
+    margin: 1% 0 1% 0%;
+  }
+>>>>>>> master
 }
 @media only screen and (max-width: 480px) {
+<<<<<<< HEAD
 	.span_2_of_2, .span_1_of_2 { width: 100%; }
 }*/
 
+=======
+  .span_2_of_2, .span_1_of_2 { width: 100%; }
+}*/
+>>>>>>> master
 
 /*#profile{
 padding-right: 10px;
@@ -131,7 +176,12 @@ padding-left: 10px;
 margin: 0;
 float: left;
 <<<<<<< HEAD
+<<<<<<< HEAD
 width:300px;
+=======
+width:300px;
+
+>>>>>>> master
 }*/
 
 
@@ -147,7 +197,6 @@ width:300px;
 }
 
 #stats{
-  /*outline: 1px solid blue;*/
   list-style: none;
   padding-top: 12px;
   padding-bottom: 12px;
@@ -177,11 +226,14 @@ width:300px;
   padding-left: 14px;
 }
 
+<<<<<<< HEAD
 span.octicon {/** RG */
     width: 16px;
     text-align: center;
   }
 
+=======
+>>>>>>> master
 
 
 .followers li{
@@ -191,14 +243,27 @@ span.octicon {/** RG */
   padding-top: 12px;
   padding-bottom: 12px;
   display: inline-block;
+<<<<<<< HEAD
   border-bottom-color: 1px solid #eee;
+=======
+>>>>>>> master
 }
 
 .followers h3{
   text-decoration: none;
+<<<<<<< HEAD
   font-size: 14px;
   line-height: 3;
   color: #767676;
+=======
+  font-size: 11px;
+  line-height: 3;
+}
+
+.followers h2{
+  text-decoration: none;
+  font-size: 24px;
+>>>>>>> master
 }
 
 .followers h2{
@@ -206,13 +271,65 @@ span.octicon {/** RG */
   font-size: 28px;
   font-weight: bold;
 
-}
+<<<<<<< HEAD
+=======
 
-
-/*****************************************************************/
 /*REPO NAV BAR*/
 
 
+
+/*REPO LIST*/
+
+#repo-area {
+  display: inline;
+  position: absolute;
+}
+
+#main-content{
+  width: 850px;
+  border: 1px solid #d8d8d8;
+  margin: 100px;
+>>>>>>> master
+}
+
+.repo-list{
+  margin-top: 4em;
+  display: inline-block;
+  width: 115%;
+  position: relative;
+}
+.repo-list h3{
+  font-size: 20px;
+}
+
+<<<<<<< HEAD
+/*****************************************************************/
+/*REPO NAV BAR*/
+
+=======
+.repo-list a{
+  display: list-item;
+  font-size: 1.2em;
+  line-height: 2;
+  padding-left: 23px;
+  text-decoration: none;
+  color: #47a3da;
+
+}
+
+.repo-list p{
+  font-size: .8em;
+  padding-left: 23px;
+  padding-bottom: 14px;
+  color:#666;
+}
+>>>>>>> master
+
+.repo-list li{
+  border: 4px solid #f5f5f5;
+  margin: 2px 11px -5px -2px;
+  width: 200%;
+}
 
 #repo-nav{
   border: solid 1px #d8d8d8;
@@ -225,8 +342,6 @@ span.octicon {/** RG */
 #repo-nav li{
   display: inline-block;
   font-size: 14px;
-  /*border-top: solid 1px #e5e5e5;*/
-  /*border: 1px solid #e5e5e5;*/
   text-decoration: none;
   padding: 8px 12px 8px 12px;
   cursor: pointer;
@@ -319,7 +434,7 @@ li a{
     /*float: right;*/
     border: 1px solid white;
     position: relative;
-    /*display: inline-block;*/
+    display: inline-block;
     font-size: 14px;
     font-weight: bold;
     line-height: 20px;
@@ -337,7 +452,7 @@ li a{
 
 #block{
   padding: 2px 10px 2px 10px;
-  position: relative;;
+  position: relative;
   display: inline-block;
   padding: 6px 12px;
   font-size: 13px;

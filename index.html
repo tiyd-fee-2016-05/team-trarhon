@@ -48,12 +48,14 @@
    <div id="container">
 
      <!-- Profile Column -->
+
      <div class="section group">
        <div class="col span_1_of_2">
          <div id="profile">
 
       <script id="gh-user-template" type="text/html">
        <img src="<%- m.avatar_url %>">
+
        <ul id="stats">
          <h1 class="user-name">
            <%- m.name %></h1>
@@ -68,6 +70,7 @@
      </div>
 
        <div class="followers">
+
        <li><h2><%- m.followers%></h2><h3>Followers</h3></li>
        <li><h2>2</h2><h3>Starred</h3></li>
        <li><h2><%- m.following %></h2><h3>Following</h3></li>
@@ -78,26 +81,61 @@
 
 <!-- REPO AREA RIGHT SIDE -->
     <div id="main-content">
+=======
+       <li><h2>1.4k</h2><h3>Followers</h3></li>
+       <li><h2>2</h2><h3>Starred</h3></li>
+       <li><h2>6</h2><h3>Following</h3></li>
+      </div>
+    </script>
+
+  </div>
+       <!-- Repo area -->
+       <div id="main-content">
+>>>>>>> master
        <div class="col span_1_of_2">
 
        <div id="repo-area">
          <nav id="repo-nav">
+<<<<<<< HEAD
            <ul><!---  Rhonda  ---->
            <li class="contribution"><a href=""><span class="octicon octicon-person"></span>Contributions</a></li>
            <li class="repo"><a href=""><span class="octicon octicon-repo"></span>Repositories</a></li>
            <li class="Pub-act"><a href=""><span class="octicon octicon-rss"></span>Public Activity</a></li>
            <li><button id="follow" type="select"><span class="octicon octicon-person"></span>Follow</button></li>
            <li><button id="block" type="select">Block or Report<i class="fa fa-caret-down" aria-hidden="true"></button></i></li>
+=======
+           <ul><!---  Rhonda added <li></li>  ---->
+           <li class="contribution"><a href=""><i class="fa fa-female" aria-hidden="true"></i>Contributions</a></li>
+           <li class="repo"><a href=""><i class="fa fa-wpforms" aria-hidden="true"></i>Repositories</a></li>
+           <li class="Pub-act"><a href=""><i class="fa fa-pause" aria-hidden="true"></i>Public Activity</a></li>
+           <li><button id="follow" type="select"><i class="fa fa-female" aria-hidden="true"></i>Follow</button></li>
+           <li><button id="block" type="select"><i class="fa fa-wpforms" aria-hidden="true"></i>Block or Report</button></li>
+>>>>>>> master
           </ul>
 
          </nav>
         </div>
 
+<<<<<<< HEAD
+=======
+       <ul class="repo-list">
+         <h3>Popular Repositories</h3>
+         <!-- <ul class="repo-list"> -->
+           <li> <a href=""> Spoon-Knife</a><p>The repo is for demonstration purposes only.</p> </li>
+           <li> <a href="">Hello-World</a> <p>My first repository on Github!</p> </li>
+           <li> <a href="">hello-world</a><p>My first repository on Github.</p> </li>
+           <li> <a href="">octocat.github.io</a><p></p> </li>
+           <li> <a href="">git-consortium</a><p>The repo is for demonstration purposes Only</p> </li>
+          </ul>
+         </div>
+        </div>
+>>>>>>> master
 
 <!---  Travis   ----------------------------------------->
         <ul id="repo-list">
          <script id="gh-repo-template" type="text/html">
 
+<<<<<<< HEAD
          <h3>Popular Repositories</h3>
          <li> <a  href="<%- m.name %>" class="repo-a"><span class="repo-title"></span><span class="repo-desc">The repo is for demonstration purposes only.</span>
          <span class="repo-star ">9,939</span></a></li>
@@ -132,5 +170,15 @@
 
 
     <script src="assets/js/octocat.js"></script>
+=======
+        </div>
+       </div>
+    <!-- </div> -->
+<!-- </div> -->
+
+  <!-- <script src="asset/js/octocat.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.13.1/lodash.min.js"></script>
+  <!-- <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script> -->
+>>>>>>> master
   </body>
 </html>
