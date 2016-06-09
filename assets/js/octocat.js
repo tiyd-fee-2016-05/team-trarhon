@@ -38,7 +38,11 @@ $(function () {
 //     console.log('submit');
 //
 //     var ghLogin = $('input[name="gh-login"]').val();
-//     $.getJSON('https://api.github.com' + ghLogin)
+//     $.getJSON('https://api.github.com/users/rlgoolsby/repos' + function(json)){// Tori//
+        //var(var i = 0; i < 10; i++){
+          //var repoTabRepo =_.template("<img")
+      //  }
+
 //       .done(showRepo)
 //       .fail(showError);
 //   });
