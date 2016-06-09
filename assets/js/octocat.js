@@ -31,10 +31,10 @@
 // });
 
 
-// $('.snackz').click(function (){
-//   var menu = $(this).siblings().toggleClass("activate"); //here i target the class "activate" which then toggles the "display" property and sets it to "block".
-//   $("h3").not(menu).removeClass("activate");  // 'not'removes elements from the set of matched elements.
-// });
+$('.contribution').click(function (){
+    $('.list-list').toggleClass("breaker");
+    console.log("breaker-breaker-1-2")
+});
 
 
 
